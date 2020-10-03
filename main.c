@@ -33,7 +33,7 @@ main(int argc, char *argv[])
 		s = argv[1] ;
 		l = strnlen(s, MAXSTRLEN) ;
 		for(i=0 ; i<l ; ++i)
-			printf("%d\n", s[i]);
+			printf("%u\n", s[i]);
 	} else
 		usage();
 	exit(1);
