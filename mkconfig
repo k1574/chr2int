@@ -1,10 +1,9 @@
 CC = tcc
 LD = $CC
 NAME = chr2int
-ROOT = $HOME/local
-BIN = $ROOT/bin
-SHARE = $ROOT/share
-MAN = $SHARE/man/
+EXE = $HOME/exe
+SHR = $HOME/shr
+MAN = $SHR/man
 CPPFLAGS =
 CFLAGS = $CPPFLAGS
 LDFLAGS =
